@@ -1,3 +1,19 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fonts/gilroy-bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fonts/gilroy-semibold.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fonts/gilroy-regular.ttf);
+    font-weight: 400;
+}
+
 .header .wrapper-top {
     background-color:#20242D;
 }
@@ -12,7 +28,6 @@
     color: #FFFFFF;
 ;
 }
-
 header .contacts a{
     font-family: Gilroy;
     font-size: 12px;
@@ -26,7 +41,6 @@ header .contacts a{
 }
 .header .wrapper-bottom {
     background-color: #FFFFFF;
-
 }
 .header .navigation a{
     font-family: Gilroy;
@@ -40,7 +54,6 @@ header .contacts a{
     ;
     text-decoration: none;
 }
-
 .header .navigation .active {
     color: #FF7129;
 }
